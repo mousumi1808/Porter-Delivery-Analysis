@@ -29,5 +29,23 @@ Recommendations :
 - Dynamically reallocate partners based on historical demand patterns.
 - Introduce incentive programs during peak hours to improve partner participation.
 
+Skills Demonstrated :
+
+Data Cleaning & Preprocessing
+Exploratory Data Analysis (EDA)
+Statistical Analysis
+Data Visualization
+Business Insight Generation
+power bi Dashboard Development
+Problem Solving
+
+Tools & Technologies :
+
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
 
 
