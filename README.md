@@ -29,6 +29,34 @@ Recommendations :
 - Dynamically reallocate partners based on historical demand patterns.
 - Introduce incentive programs during peak hours to improve partner participation.
 
+SQl Code:
+create database PorterAnalysis
+--drop table PorterdataAnalysis
+create table PorterdataAnalysis(market_id char(4),
+--created_at datetime,
+--actual_delivery_time datetime, 
+store_id varchar(200),
+store_primary_category varchar(100),
+order_protocol smallint, 
+total_items int,
+subtotal float,
+ num_distinct_items int,
+min_item_price float,
+max_item_price float,
+total_onshift_partners int,
+total_busy_partners int,
+total_outstanding_orders int,
+delivery_time_min float,
+year1 int,
+month1 smallint,
+quarter1 smallint,
+Day_Name varchar(20),
+order_hour smallint
+)
+
+--truncate table  hospitaladmissionanalysis
+select * from PorterdataAnalysis;
+
 Skills Demonstrated :
 
 Data Cleaning & Preprocessing
@@ -38,6 +66,7 @@ Data Visualization
 Business Insight Generation
 power bi Dashboard Development
 Problem Solving
+sql
 
 Tools & Technologies :
 
@@ -47,5 +76,6 @@ NumPy
 Matplotlib
 Seaborn
 Jupyter Notebook
+sql
 
 
